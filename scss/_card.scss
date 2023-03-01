@@ -1,0 +1,76 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+}
+
+.cardDiv {
+    width: 100%;
+    height: 55vh;
+    background-color: #F7F5EF;
+    
+}
+
+.cardImg {
+    display: flex;
+    padding-left: 33%;
+    padding-top: 6%;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FDFDFB;
+    text-align: left;
+    align-content: center;
+    width: 100%;
+}
+
+.cardHead {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1B1A17;
+    padding-left: 5%;
+    margin-bottom: 3%;
+}
+
+.cardPar {
+    font-size: 16px;
+    line-height: 150%;
+    color: #444240;
+    width: 40%;
+    padding-left: 5%;
+    margin-bottom: 3%;
+}
+
+.cardButton {
+    background: #D4B098;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 20%;
+    margin-left: 5%;
+    border-style: none;
+    padding: 2% 5%;
+}
+
+.element1 {
+    position: relative;
+    left: 1330px;
+    bottom: 280px;
+}
+
+.element2 {
+    position: relative;
+    left: 1105px;
+    bottom: 12px;
+}

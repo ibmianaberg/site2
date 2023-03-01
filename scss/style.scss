@@ -1,0 +1,23 @@
+@import "reset";
+@import "container";
+@import "header";
+@import "main";
+@import "description";
+@import "card";
+@import "follow";
+@import "footer";
+
+
+$fs14:14px;
+$fs16:16px;
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555248;
+}

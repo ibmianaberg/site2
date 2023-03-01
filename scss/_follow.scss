@@ -1,0 +1,61 @@
+.follow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 30%;
+}
+
+.follow1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 8%;
+    max-width: 40%;
+}
+
+.followHeader {
+    font-family: 'Playfair Display',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1B1A17;
+    margin-top: 15%;
+}
+
+.followText {
+    font-size: 16px;
+    line-height: 27px;
+    color: #444240;
+    span {
+        font-weight: bold;
+    }
+    max-width: 60%;
+    margin-top: 5%;
+}
+
+.followSocial {
+    display: flex;
+    justify-content: start;
+    margin-top: 15%;
+}
+
+.followLogo {
+    margin: 0 1%;
+}
+
+.follow2 {
+
+}
+
+.followPhoto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 900px;
+}
+
+.followPhotoImg {
+    padding: 1.5% 2%;
+}

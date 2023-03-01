@@ -1,0 +1,77 @@
+.description {
+    margin-bottom: 10%;
+}
+
+.descriptionText {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1B1A17;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3% 0;
+}
+
+.descriptionLook {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 3%;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444240;
+    padding-right: 10%;
+}
+
+.descriptionGallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.descriptionGallery1_2, .descriptionGallery2_2, .descriptionGallery3_2 {
+    background-image: url('../img/BlurEllipse.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding: 10% 0;
+}
+
+.descriptionGallery1, .descriptionGallery2, .descriptionGallery3 {
+    background: #FDFDFB;
+}
+
+.descript {
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionGalleryText1 {
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(27, 26, 23, 0.82);
+}
+
+.descriptionGalleryText2 {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(27, 26, 23, 0.82);
+}
+
+.descriptionGalleryText3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1B1A17;
+    padding-left: 25%;
+}

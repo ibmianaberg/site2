@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 10%;
+    margin: 2% 0;
+}
+
+.headerStyle {
+    display: flex;
+    align-items: center;
+}
+
+.headerName {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.14em;
+}
+
+.headerMenu {
+    display: flex;
+    justify-content: center;
+}
+
+.headerMenuLi {
+    padding: 0 20%;
+
+}
+
+.headerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLogoLi {
+    padding: 0 5%;
+    &::before {
+        content: url('.../img/round.svg');
+    }
+}
